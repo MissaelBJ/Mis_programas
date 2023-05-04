@@ -1,6 +1,8 @@
 import threading as th
 import time
 
+print("Hola mundo")
+
 def paralelo():
     global contador 
     global conti 
