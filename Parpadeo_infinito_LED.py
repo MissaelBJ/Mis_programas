@@ -11,5 +11,4 @@ try:
         time.sleep(0.2)
 except:
     print("Fin del programa")
-    GPIO.cleaunp()
-    
+    GPIO.cleanup()
