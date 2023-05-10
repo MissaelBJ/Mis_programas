@@ -12,7 +12,7 @@ while continuar:
     if dato == "z":
         continuar = False
     else:
-        pwm.ChangeDutyCicle(float(dato))
+        pwm.ChangeDutyCycle(float(dato))
 pwm.stop()
 GPIO.cleanup()
 print("FIn del programa")
