@@ -1,6 +1,6 @@
 import RPi.GPIO as GPIO
 
-GPIO.setup(GPIO.BCM)
+GPIO.setmode(GPIO.BCM)
 GPIO.setup(2,GPIO.OUT)
 
 pwm = GPIO.PWM(2, 50)
