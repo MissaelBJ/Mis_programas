@@ -14,5 +14,4 @@ while continuar:
     elif dato == "z":
         continuar = False
     print("FIn del programa")
-    GPIO.cleanup()
-    
+GPIO.cleanup()
