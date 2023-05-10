@@ -2,7 +2,7 @@ import RPi.GPIO as GPIO
 import tkinter
 import time
 
-def cambio():
+def cambio(valor):
     print(type(valor), valor)
     etiqueta.set(valor)
     dc = (float(valor) + 45)/18
