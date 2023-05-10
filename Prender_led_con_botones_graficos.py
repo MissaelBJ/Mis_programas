@@ -27,7 +27,7 @@ fm.grid(row=0, column=0)
 b1 = tkinter.Button(fm,text = "Apagar", command=apagar)
 b1.grid(row = 1, column = 0)
 
-b2 = tkinter.Button(fm,text = "Encender", command=apagar)
+b2 = tkinter.Button(fm,text = "Encender", command=encender)
 b2.grid(row = 1, column = 1)
 
 lb = tkinter.Label(fm, textvariable = etiqueta)
