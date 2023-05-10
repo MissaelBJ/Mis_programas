@@ -7,7 +7,7 @@ def apagar():
     print("Apagar")
     GPIO.output(2, GPIO.LOW)
     etiqueta.set("Apagado")
-    
+
 def encender():
     print("Encender")
     GPIO.output(2, GPIO.HIGH)
@@ -31,7 +31,7 @@ b1 = tkinter.Button(fm,text = "Encender", command=apagar)
 b1.grid(row = 1, column = 1)
 
 lb = tkinter.Label(fm, textvariable = etiqueta)
-lb.grid(row = 2,column = 0, clumnspan = 2)
+lb.grid(row = 2,column = 0, columnspan = 2)
 
 w.mainloop()
 
