@@ -9,8 +9,7 @@ try:
         if GPIO.input(20) == GPIO.HIGH:
             GPIO.output(2, GPIO.HIGH)
         else:
-            GPIO.output(20,GPIO.LOW)
+            GPIO.output(2,GPIO.LOW)
 except:
     GPIO.cleanup()
     print("FIN del programa")
-    
