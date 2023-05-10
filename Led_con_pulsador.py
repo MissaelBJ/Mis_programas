@@ -6,10 +6,19 @@ GPIO.setup(20,GPIO.IN)
 
 try:
     while True:
+        GPIO.output(2,GPIO.input(20))
+except:
+    GPIO.cleanup()
+    print("SE acabo el programa")
+
+
+"""
+try:
+    while True:
         if GPIO.input(20) == GPIO.HIGH:
             GPIO.output(2, GPIO.HIGH)
         else:
             GPIO.output(2,GPIO.LOW)
 except:
     GPIO.cleanup()
-    print("FIN del programa")
+    print("FIN del programa")"""
